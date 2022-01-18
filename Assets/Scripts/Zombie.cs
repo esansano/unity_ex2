@@ -19,4 +19,8 @@ public class Zombie : MonoBehaviour
         transform.position = transform.position + zombieSpeed * Vector3.forward * Time.deltaTime;
         animator.SetFloat("Speed_f", zombieSpeed);
     }
+
+    public void IncreaseSpeed() {
+        zombieSpeed += 0.5f;
+    }
 }
