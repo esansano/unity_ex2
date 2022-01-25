@@ -10,14 +10,14 @@ public class Zombie : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        animator.SetFloat("Speed_f", zombieSpeed);
+        //animator.SetFloat("Speed_f", zombieSpeed);
     }
 
     // Update is called once per frame
     void Update()
     {
         transform.position = transform.position + zombieSpeed * Vector3.forward * Time.deltaTime;
-        animator.SetFloat("Speed_f", zombieSpeed);
+        //animator.SetFloat("Speed_f", zombieSpeed);
     }
 
     public void IncreaseSpeed() {

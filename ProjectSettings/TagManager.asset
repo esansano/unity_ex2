@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Projectile
+  - Body
   layers:
   - Default
   - TransparentFX
